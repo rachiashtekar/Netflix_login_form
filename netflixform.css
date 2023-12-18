@@ -1,0 +1,107 @@
+img{
+    opacity: 0.7;
+}
+body{
+    background-image: url("https://miro.medium.com/v2/resize:fit:1400/1*5lyavS59mazOFnb55Z6znQ.png");
+    /* height: 100vh; */
+}
+div.wraping{
+    height: 50px;
+    width: 150px;
+}
+div.index{
+    background-color: black;
+    opacity: 0.9;
+    margin-top: 10px;
+    margin-left: 350px;
+    border-radius: 10px;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+
+}
+img{
+    height: 100px;
+    width: 200px;
+}
+body{
+    background-color: black;
+}
+
+h2{
+    color: white;
+   font-family:  sans-serif;
+   font-size: 30px;
+   margin: 10px
+
+}
+#email{
+    background-color: rgb(23, 20, 20);
+    margin: 10px;
+    padding: 10px;
+    height: 20px;
+    width: 300px;
+    border-radius: 5px;
+    border: 0px solid transparent;
+    
+
+}
+#password{
+    background-color: rgb(23, 20, 20);
+    margin: 10px;
+    padding: 10px;
+    height: 20px;
+    width: 300px;
+    border-radius: 5px;
+    border: 0px solid transparent;
+
+
+}
+#submit{
+    background-color:rgb(193, 3, 3);
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    border: 0px solid transparent;
+
+
+}
+
+    
+
+#check{
+    margin: 10px;
+    background-color: rgb(182, 174, 174);
+    font-size: 5px;
+    
+}
+a{
+    margin-left: 70px;
+    color: rgb(182, 174, 174);
+    font-size: 15px;
+}
+div{
+    color: rgb(182, 174, 174);
+    margin-top: 50px;
+    margin-left: 10px;
+}
+span,checking{
+    color:rgb(182, 174, 174);
+    font-size: 15px;
+}
+span.para{
+    color: white;
+}
+@media only screen and (max-width:100%){
+    body{
+        background-image:url("https://th.bing.com/th/id/OIP.YRIUUjhcIMvBEf_bbOdpUwHaEU?rs=1&pid=ImgDetMain");
+    }
+}
